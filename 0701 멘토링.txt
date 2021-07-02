@@ -1,0 +1,24 @@
+PICK
+layoutLM 
+
+https://github.com/applicaai/lambert
+
+멘토님 코드
+
+코드가 이런 순서로 진행된다. 
+detect - make list - recognize 
+-> detect? 
+	-> 이 단계에서는 대상이 되는 box를 선정하는 단계라고 보면 된다. recognize 단계에서는 box 안에 있는 글자들을 recognize 하는 게 주된 단계이다. 
+paragraph라는 함수 자체로 들어가지 않게 코드를 막는 것도 하나의 방법이다. 
+
+코드를 바꾸되 코드를 원래 쓰던 사람들은 그 결과값이 나와야 한다. 
+
+근데 이미지 파일을 json으로 만들어서 모으는 거 자체가 나중에 학습을 위해서인거 아냐?
+그러면 그냥 우리 신분증만 찍고 json 파일 수정해서 뻥튀기 하면 되는거지??? 
+-> 안됨!
+
+1~5까지만 해보고 parsing으로 넘어가는 거면 내일이면 바로 parsing 갈 수 있는 거 아냐?
+
+cv2.C
+
+labeling tool : ocr 하고 난 출력을 화면에 ... 수작업으로 labeling을 하셨었다. 
